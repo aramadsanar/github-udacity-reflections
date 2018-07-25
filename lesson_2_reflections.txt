@@ -5,16 +5,28 @@ A new .git folder is created. It is need to be done to initialize a git repo
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging area gives a chance to give a second thought before committing something
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+That's how git works
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+branches help me to alternate the git timeline and let me do experimental changes that would otherwise dangerous to do on the master branch
+
 How do the diagrams help you visualize the branch structure?
+
+Branch visualizations helps a lot in drawing the timeline
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+merging results in a commit.state that combines the changes within the both branches
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Git does auto merging when there are no conflicts occur. However,when conflict occurs it is best to leave it to the humans, since after all we are the ones who uses the result, not git.
